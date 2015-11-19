@@ -158,7 +158,7 @@ Required fields denoted with *
 * Field Type: String
 
 ******
-## Premise
+## Premises
 * The following fields are enclosed in the **premise** array of objects
 * Note: multiple premises can be specified.
 
@@ -302,4 +302,4 @@ If you would like to propose changes to the standard, please do so via a GitHub 
 ******
 # Comments and Issues
 If you have comments or suggestions for the standard, you should use the 'issues' feature of github.com -- you can access it here:
-https://github.com/newplanet/vfd/issues
+https://github.com/AnimalHealthInstitute/VFD/issues
