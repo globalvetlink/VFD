@@ -158,7 +158,7 @@ Required fields denoted with *
 * Field Type: String
 
 ******
-## Premise
+## Premises
 * The following fields are enclosed in the **premise** array of objects
 * Note: multiple premises can be specified.
 
