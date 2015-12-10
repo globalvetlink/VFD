@@ -158,8 +158,8 @@ Required fields denoted with *
 * Field Type: String
 
 ******
-## Premises
-* The following fields are enclosed in the **premise** array of objects
+## Animal Premises
+* The following fields are enclosed in the **animalPremises** array of objects
 * Note: multiple premises can be specified.
 
 #### Name

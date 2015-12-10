@@ -38,7 +38,7 @@
         "phone": "8058013323",
         "fax": "8058013322"
     },
-    "premises": [{
+    "animalPremises": [{
         "name": "Full Premise Name",
         "ID": "National Premise ID",
         "address": "1234 Example Ln",
