@@ -58,7 +58,7 @@
     	"indication": "the indication for which the VFD drug is issued",
     	"instructions": "the withdrawal time, special instructions, and cautionary statements necessary for use of the drug in conformance with the approval"
     }],
-    "drugSubstitutionsAllowed": true,
+    "drugSubstitutionsNotAllowed": true,
     "issuanceDate": "2015-09-01T00:00:00+00:00",
     "expirationDate": "2015-12-01T00:00:00+00:00",
     "species": "the species and production class of animals to be fed the VFD feed",
