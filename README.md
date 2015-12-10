@@ -1,5 +1,5 @@
 # VFD
-XML and JSON standard for electronic VFDs
+JSON standard for electronic VFDs
 This repository serves as standards collaboration platform for standarized electronic VFDs.
 
 
