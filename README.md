@@ -246,10 +246,10 @@ barn, stall, tank, or other descriptor the veterinarian deems appropriate)
 ******
 ## VFD Information
 
-#### Drug Substitution Allowed
-* Field Name: **drugSubstitutionsAllowed**
+#### Drug Substitution Not Allowed
+* Field Name: **drugSubstitutionsNotAllowed**
 * Field Type: Boolean
-* Whether equivilant drugs can be substituted by the feed distributor
+* Whether equivilant drugs can not be substituted by the feed distributor
 
 #### Issuance Date*
 * Field Name: **issuanceDate**
