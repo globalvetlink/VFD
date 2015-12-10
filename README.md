@@ -58,12 +58,12 @@ Required fields denoted with *
 * Field Type: String
 * ISO-8061 Complient Time Stamp
 
-#### Signature Image*
+#### Signature Image
 * Field Name: **signatureImage**
 * Field Type: String
 * Base64 Encoded Image
 
-#### Signature Image Type*
+#### Signature Image Type
 * Field Name: **signatureImageType**
 * Field Type: String
 * Type prefix for Base64 Encoded Image
