@@ -216,9 +216,9 @@ barn, stall, tank, or other descriptor the veterinarian deems appropriate)
 
 
 ******
-## Drugs
-* The following fields are enclosed in the **drugs** array of objects
-* Note: multiple drugs can be specified.
+## Drug
+* The following fields are enclosed in the **drug** object
+* Note: This is a VFD category drug that is being specified.
 
 #### Drug
 * Field Name: **drug**
@@ -276,6 +276,19 @@ barn, stall, tank, or other descriptor the veterinarian deems appropriate)
 * Field Name: **weightRangeLbs**
 * Field Type: String
 * The approximate weight range of the animals
+
+#### Combination Drugs
+* Field Name: **combinationDrugs**
+* Field Type: Array
+* A list of combination drugs names specified for approved use.
+
+#### Combinations Statement
+* Field Name: **combinationsStatement**
+* Field Type: String
+* One of the Following: 
+  * "This VFD ONLY authorizes the use of the VFD drug cited in this order and is NOT intended to authorize the use of such drug in combination with any other animal drugs.",
+  * "This VFD authorizes the use of the VFD drug cited in this order in ANY FDA-approved, conditionally approved, or indexed combination(s) in medicated feed that contains the VFD drug as a component.",
+  * "This VFD authorizes the use of the VFD drug cited in this order in THE FOLLOWING FDA-approved, conditionally approved, or indexed combination(s) in medicated feed that contains the VFD drug as a component."
 
 #### Reorders*
 * Field Name: **reorders**

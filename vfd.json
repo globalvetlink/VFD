@@ -15,7 +15,7 @@
         "signatureImageType": "image/gif"
     },
     "feedMill": {
-    	"name": "Full Name",
+        "name": "Full Name",
         "address": "1234 Example Rd",
         "apt": "Suite 101",
         "city": "Example City",
@@ -52,18 +52,20 @@
         "fax": "7193377651",
         "description": "A more specific description of the location of the animals (for example, by site, pen, barn, stall, tank, GPS, or other descriptor the veterinarian deems appropriate);"
     }],
-    "drugs": [{
-    	"drug": "Name of the drug",
-    	"drugLevel": "the level of VFD drug in the feed and duration of use",
-    	"indication": "the indication for which the VFD drug is issued",
-    	"instructions": "the withdrawal time, special instructions, and cautionary statements necessary for use of the drug in conformance with the approval"
-    }],
+    "drug": {
+        "drug": "Name of the drug",
+        "drugLevel": "the level of VFD drug in the feed and duration of use",
+        "indication": "the indication for which the VFD drug is issued",
+        "instructions": "the withdrawal time, special instructions, and cautionary statements necessary for use of the drug in conformance with the approval"
+    },
     "issuanceDate": "2015-09-01T00:00:00+00:00",
     "expirationDate": "2015-12-01T00:00:00+00:00",
     "species": "the species and production class of animals to be fed the VFD feed",
     "animalCount": 100,
     "ageRange": "the approximate age range of the animals",
     "weightRangeLbs": "the approximate weight range of the animals",
+    "combinationDrugs":["SupplementalDrug1", "AnotherDrug"],
+    "combinationsStatement": "This VFD authorizes the use of the VFD drug cited in this order in ANY FDA-approved, conditionally approved, or indexed combination(s) in medicated feed that contains the VFD drug as a component.",
     "reorders": 2,
     "statement": "Use of feed containing this veterinary feed directive (VFD) drug in a manner other than as directed on the labeling (extralabel use), is not permitted",
     "notes": "any other information the veterinarian deems appropriate"
